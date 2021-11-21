@@ -1,0 +1,63 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background: #191919;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+.content {
+  height: 100%;
+  width: 90vh;
+}
+.commands {
+  margin: 0;
+}
+
+.commandsList {
+  height: 100%;
+  padding: 0;
+}
+
+.app {
+  width: 100%;
+  height: 98vh;
+
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+#text {
+  color: #0cde20;
+  background: #202020;
+  border: black;
+  font-weight: 600;
+  flex-direction: column-reverse;
+}
+
+#text::-ms-input-placeholder {
+  color: #0cde20;
+  font-weight: 600;
+}
+
+#text::-webkit-input-placeholder {
+  color: #0cde20;
+  font-weight: 600;
+}
+
+#text::-moz-placeholder {
+  color: #0cde20;
+  font-weight: 600;
+  opacity: 1;
+}
+
+#text::-moz-placeholder {
+  color: #0cde20;
+  font-weight: 600;
+  opacity: 1;
+}
